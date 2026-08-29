@@ -28,9 +28,9 @@ def divide(a, b):
     if b == 0:
         raise ValueError(f"Cannot divide {a} by zero - division by zero is undefined")
     
-    print(f"Dividing {a} ÷ {b}")  # Added logging
+    
     result = a / b
-    print(f"Result: {result}")
+    
     return result
 
 def multiply(a, b):
