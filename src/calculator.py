@@ -39,6 +39,17 @@ def multiply(a, b):
         raise TypeError("Both arguments must be numbers")
     return a * b
 
+def power(a, b):
+    """Calculate a raised to the power of b"""
+    return a ** b
+
+
+def square_root(a):
+    """Calculate the square root of a number"""
+    if a < 0:
+        raise ValueError("Cannot calculate square root of negative number")
+    return a ** 0.5
+
 
 
 
